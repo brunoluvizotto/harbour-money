@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>harbour-money.qml</file>
+        <file>pages/Add.qml</file>
+        <file>pages/EditDialog.qml</file>
+        <file>pages/Options.qml</file>
+        <file>pages/Paid.qml</file>
+        <file>pages/Stats.qml</file>
+        <file>pages/ToPay.qml</file>
+        <file>cover/CoverPage.qml</file>
+        <file>elements/BarGraph.qml</file>
+        <file>pages/About.qml</file>
+        <file>Imagens/Twitter-icon-logo.png</file>
+        <file>Imagens/linkedin-icon-logo.png</file>
+        <file>Imagens/gmail-icon-logo.png</file>
+        <file>Imagens/btn_donate_LG.gif</file>
+    </qresource>
+</RCC>
