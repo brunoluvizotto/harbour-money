@@ -194,7 +194,7 @@
     </message>
     <message>
         <source>Deutsch</source>
-        <translation>Deutsch</translation>
+        <translation type="vanished">Deutsch</translation>
     </message>
     <message>
         <source>Interval Shown</source>

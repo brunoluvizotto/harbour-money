@@ -208,7 +208,6 @@ Page {
     Component.onCompleted:
     {
         timerPush.start()
-        console.log(options.language)
     }
 
     onStatusChanged:

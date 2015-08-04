@@ -209,7 +209,6 @@ Page {
                     else
                     {
                         options.categoryPeriod = "Days";
-                        //bestof = 5;
                     }
                 }
             }
@@ -256,7 +255,7 @@ Page {
                     id: languageModel
                     MenuItem { text: qsTr("English") }
                     MenuItem { text: qsTr("Português") }
-                    MenuItem { text: qsTr("Deutsch") }
+                    //MenuItem { text: qsTr("Deutsch") }
                 }
                 onCurrentIndexChanged:
                 {

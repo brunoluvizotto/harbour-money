@@ -504,10 +504,6 @@ Page {
                 id: lastXInterval
                 text: qsTr("Last ") + barGraphDays.values.length + " " + (options.categoryPeriod === "Months" ? appWindow.months : appWindow.days)
                 anchors.horizontalCenter: parent.horizontalCenter
-                Component.onCompleted: {
-                    console.log(options.categoryPeriod + " = Months?")
-                    console.log(options.categoryPeriod === "Months" ? appWindow.months : appWindow.days)
-                }
             }
 
             BarGraph {

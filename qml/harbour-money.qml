@@ -71,7 +71,6 @@ ApplicationWindow
 
     Component.onCompleted:
     {
-        console.log("Essa porra é " + days)
         switch(options.paidPeriodIndex)
         {
         case 0:
