@@ -405,63 +405,63 @@
 <context>
     <name>ToPay</name>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="231"/>
+        <location filename="../qml/pages/ToPay.qml" line="230"/>
         <source>To Pay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="236"/>
+        <location filename="../qml/pages/ToPay.qml" line="235"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="240"/>
+        <location filename="../qml/pages/ToPay.qml" line="239"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="244"/>
+        <location filename="../qml/pages/ToPay.qml" line="243"/>
         <source>Stats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="248"/>
+        <location filename="../qml/pages/ToPay.qml" line="247"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="281"/>
+        <location filename="../qml/pages/ToPay.qml" line="280"/>
         <source>Delete</source>
         <comment>Delete item</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="342"/>
+        <location filename="../qml/pages/ToPay.qml" line="341"/>
         <source>Act. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="352"/>
+        <location filename="../qml/pages/ToPay.qml" line="351"/>
         <source>Paym. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="387"/>
+        <location filename="../qml/pages/ToPay.qml" line="386"/>
         <source>Set Paid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="393"/>
+        <location filename="../qml/pages/ToPay.qml" line="392"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="407"/>
+        <location filename="../qml/pages/ToPay.qml" line="406"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="436"/>
+        <location filename="../qml/pages/ToPay.qml" line="435"/>
         <source>Total: </source>
         <translation type="unfinished"></translation>
     </message>

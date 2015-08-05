@@ -14,7 +14,7 @@ Name:       harbour-money
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    Money app for SailfishOS
 Version:    0.3.1
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    LICENSE
 URL:        http://example.org/
