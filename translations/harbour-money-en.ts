@@ -11,6 +11,10 @@
         <source>Author: </source>
         <translation>Author: </translation>
     </message>
+    <message>
+        <source>Special thanks to the translators:</source>
+        <translation>Special thanks to the translators:</translation>
+    </message>
 </context>
 <context>
     <name>Add</name>
@@ -214,7 +218,7 @@
     </message>
     <message>
         <source>English</source>
-        <translation>English</translation>
+        <translation type="vanished">English</translation>
     </message>
     <message>
         <source>Portugues</source>
@@ -230,7 +234,11 @@
     </message>
     <message>
         <source>Português</source>
-        <translation>Português</translation>
+        <translation type="vanished">Português</translation>
+    </message>
+    <message>
+        <source>System Locale</source>
+        <translation>System Locale</translation>
     </message>
 </context>
 <context>
@@ -258,7 +266,7 @@
     <message>
         <source>Delete</source>
         <comment>Delete item</comment>
-        <translation>Delete</translation>
+        <translation type="vanished">Delete</translation>
     </message>
     <message>
         <source>Stats</source>
@@ -279,6 +287,10 @@
     <message>
         <source>Paym. Date: </source>
         <translation>Paym. Date: </translation>
+    </message>
+    <message>
+        <source>Deleting</source>
+        <translation>Deleting</translation>
     </message>
 </context>
 <context>
@@ -418,7 +430,7 @@
     <message>
         <source>Delete</source>
         <comment>Delete item</comment>
-        <translation>Delete</translation>
+        <translation type="vanished">Delete</translation>
     </message>
     <message>
         <source>Stats</source>
@@ -443,6 +455,10 @@
     <message>
         <source>Total: </source>
         <translation>Total: </translation>
+    </message>
+    <message>
+        <source>Deleting</source>
+        <translation>Deleting</translation>
     </message>
 </context>
 <context>
