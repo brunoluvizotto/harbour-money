@@ -159,7 +159,6 @@ Page {
                 var todayData = todayDate.substring(6, 10) + "/" + todayDate.substring(3, 6) + todayDate.substring(0, 2)
                 console.log('DELETE FROM PAID WHERE NAME = "' + name + '" AND CATEGORY = "' + category + '" AND DATE = "' + data + '" AND TODAY_DATE = "' + todayData + '" AND VALUE = ' + value + ' AND KIND = "' + kind + '"')
                 var rs = tx.executeSql('DELETE FROM PAID WHERE NAME = "' + name + '" AND CATEGORY = "' + category + '" AND DATE = "' + data + '" AND TODAY_DATE = "' + todayData + '" AND VALUE = ' + value + ' AND KIND = "' + kind + '"') //'SELECT PAID.NAME, PAID.CATEGORY, PAID.DATE, PAID.VALUE, CATEGORIES.ICON FROM PAID INNER JOIN CATEGORIES WHERE PAID.CATEGORY = CATEGORIES.NAME ORDER BY PAID.DATE');
-                getPaid();
             }
         )
     }
@@ -297,22 +296,6 @@ Page {
                     width: ListView.view.width;
                     menu: contextMenu
 
-                    function deleteRemorse() {
-                        remorseAction(qsTr("Delete", "Delete item"),
-                        function() {
-                            console.log(paidModel.get(index).kind)
-                            var kindLanguage;
-                            if (paidModel.get(index).kind === appWindow.variable)
-                                kindLanguage = appWindow.variableEng
-                            if (paidModel.get(index).kind === appWindow.fixed)
-                                kindLanguage = appWindow.fixedEng
-                            if (paidModel.get(index).kind === appWindow.oneTime)
-                                kindLanguage = appWindow.oneTimeEng
-
-                            delItem(paidModel.get(index).name, paidModel.get(index).category, paidModel.get(index).datePaid, paidModel.get(index).todayDate, paidModel.get(index).value, kindLanguage)
-                        })
-                    }
-
                     Rectangle {
                         id: containerRectangle
                         color: "transparent"
@@ -399,6 +382,24 @@ Page {
                             color: Theme.primaryColor;
                         }
 
+                        RemorseItem { id: deleteRemorseItem }
+                        function deleteRemorse() {
+
+                            deleteRemorseItem.execute(container, qsTr("Deleting"),
+                                                          function() {
+                                                              var kindLanguage;
+                                                              if (paidModel.get(index).kind === appWindow.variable)
+                                                                  kindLanguage = appWindow.variableEng
+                                                              if (paidModel.get(index).kind === appWindow.fixed)
+                                                                  kindLanguage = appWindow.fixedEng
+                                                              if (paidModel.get(index).kind === appWindow.oneTime)
+                                                                  kindLanguage = appWindow.oneTimeEng
+
+                                                              delItem(paidModel.get(index).name, paidModel.get(index).category, paidModel.get(index).datePaid, paidModel.get(index).todayDate, paidModel.get(index).value, kindLanguage)
+                                                              paidModel.remove(index)
+                                                          })
+                        }
+
                         Component {
                             id: contextMenu
 
@@ -414,7 +415,6 @@ Page {
                                 MenuItem {
                                     text: qsTr("Edit")
                                     onClicked: {
-                                        console.log(paidModel.get(index).kind)
                                         var kindIndex;
                                         if (paidModel.get(index).kind === appWindow.variable)
                                             kindIndex = 0
@@ -429,7 +429,7 @@ Page {
                                 MenuItem {
                                     text: qsTr("Delete")
                                     onClicked: {
-                                        container.deleteRemorse();
+                                        containerRectangle.deleteRemorse();
                                     }
                                 }
                             }

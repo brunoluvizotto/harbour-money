@@ -69,13 +69,15 @@ CoverBackground {
     CoverActionList {
         id: coverAction
 
-        /*CoverAction {
-            iconSource: "image://theme/icon-cover-next"
-        }
-
         CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
-        }*/
+            iconSource: "image://theme/icon-cover-new"
+            onTriggered: {
+                pageStack.navigateBack()
+                pageStack.completeAnimation()
+                pageStack.push("../pages/Add.qml", {"parentKind": "PAID"})
+                appWindow.activate()
+            }
+        }
     }
 }
 

@@ -165,6 +165,28 @@ Dialog {
                 }
             }
 
+            Row {
+                anchors.left: parent.left
+                anchors.leftMargin: Theme.paddingLarge
+                anchors.right: parent.right
+                Label {
+                    id: labelValue
+                    text: qsTr("Value:")
+                    font.pixelSize: Theme.fontSizeMedium;
+                    color: Theme.primaryColor
+                }
+                TextField {
+                    id: textInputValue
+                    text: root.valueOld
+                    inputMethodHints: Qt.ImhFormattedNumbersOnly
+                    width: 0.5 * parent.width
+                    anchors.verticalCenter: parent.verticalCenter
+                    horizontalAlignment: TextInput.AlignHCenter
+                    maximumLength: 26
+                    font.pixelSize: Theme.fontSizeMedium;
+                }
+            }
+
             ComboBox {
                 id: comboBoxCategory
                 width: parent.width
@@ -286,28 +308,6 @@ Dialog {
                             text += '/'
                         lastLength = text.length
                     }*/
-                }
-            }
-
-            Row {
-                anchors.left: parent.left
-                anchors.leftMargin: Theme.paddingLarge
-                anchors.right: parent.right
-                Label {
-                    id: labelValue
-                    text: qsTr("Value:")
-                    font.pixelSize: Theme.fontSizeMedium;
-                    color: Theme.primaryColor
-                }
-                TextField {
-                    id: textInputValue
-                    text: root.valueOld
-                    inputMethodHints: Qt.ImhFormattedNumbersOnly
-                    width: 0.5 * parent.width
-                    anchors.verticalCenter: parent.verticalCenter
-                    horizontalAlignment: TextInput.AlignHCenter
-                    maximumLength: 26
-                    font.pixelSize: Theme.fontSizeMedium;
                 }
             }
         }

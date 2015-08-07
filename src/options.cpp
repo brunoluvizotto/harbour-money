@@ -95,7 +95,7 @@ void Options::setLanguage(QString value)
 }
 QString Options::getLanguage()
 {
-    return setts.value("language", "en").toString();
+    return setts.value("language", "").toString();
 }
 
 void Options::setLanguageIndex(int value)

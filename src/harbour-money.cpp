@@ -43,15 +43,26 @@ int main(int argc, char *argv[])
     view->rootContext()->setContextProperty("options", &options);
 
     QString loadLanguage;
-    if (options.getLanguage() == "Português") {
+    if (options.getLanguage() == "" || options.getLanguageIndex() == 0)
+    {
+        loadLanguage = "harbour-money-" + QLocale::system().name();
+    }
+    else if (options.getLanguage() == "Português") {
         loadLanguage = "harbour-money-pt-br";
     }
     else if (options.getLanguage() == "English") {
         loadLanguage = "harbour-money-en";
     }
+    else if (options.getLanguage() == "Deutsch") {
+        loadLanguage = "harbour-money-de";
+    }
+    else if (options.getLanguage() == "Dutch") {
+        loadLanguage = "harbour-money-nl";
+    }
     else {
         loadLanguage = "harbour-money-en";
     }
+    qDebug() << loadLanguage;
 
     QTranslator translator;
     translator.load(loadLanguage,
@@ -59,7 +70,7 @@ int main(int argc, char *argv[])
     app->installTranslator(&translator);
 
     QCoreApplication::setApplicationName("Money");
-    QCoreApplication::setApplicationVersion("0.3.1");
+    QCoreApplication::setApplicationVersion("0.4.1");
 
     view->setSource(QUrl("qrc:/harbour-money.qml"));
     view->showFullScreen();

@@ -135,9 +135,9 @@ Page {
                     notificationText = options.currency + " " + totalValuePayment.toFixed(2).toString().replace(".",",");
                 }
                 if(rs.rows.length > 0) {
-                    notification.summary = notificationName
+                    /*notification.summary = notificationName
                     notification.body = notificationText
-                    notification.publish();
+                    notification.publish();*/
                 }
             }
         )
@@ -190,7 +190,6 @@ Page {
                 var data = date.substring(6, 10) + "/" + date.substring(3, 6) + date.substring(0, 2)
                 var todayData = todayDate.substring(6, 10) + "/" + todayDate.substring(3, 6) + todayDate.substring(0, 2)
                 var rs = tx.executeSql('DELETE FROM TO_PAY WHERE NAME = "' + name + '" AND CATEGORY = "' + category + '" AND DATE = "' + data + '" AND TODAY_DATE = "' + todayData + '" AND VALUE = ' + value + ' AND KIND = "' + kind + '"')//'SELECT TO_PAY.NAME, TO_PAY.CATEGORY, TO_PAY.DATE, TO_PAY.VALUE, CATEGORIES.ICON FROM TO_PAY INNER JOIN CATEGORIES WHERE TO_PAY.CATEGORY = CATEGORIES.NAME ORDER BY TO_PAY.DATE');
-                getToPay();
             }
         )
     }
@@ -275,21 +274,6 @@ Page {
                     contentHeight: textAltura.height + dateTodayText.height + dateToPayText.height + valueText.height //1.7 * iconImage.height // 2.5 * textAltura.height
                     width: ListView.view.width;
                     menu: contextMenu
-
-                    function deleteRemorse() {
-                        remorseAction(qsTr("Delete", "Delete item"),
-                        function() {
-                            var kindLanguage;
-                            if (toPayModel.get(index).kind === appWindow.variable)
-                                kindLanguage = appWindow.variableEng
-                            if (toPayModel.get(index).kind === appWindow.fixed)
-                                kindLanguage = appWindow.fixedEng
-                            if (toPayModel.get(index).kind === appWindow.oneTime)
-                                kindLanguage = appWindow.oneTimeEng
-
-                            delItem(toPayModel.get(index).name, toPayModel.get(index).category, toPayModel.get(index).dateToPay, toPayModel.get(index).todayDate, toPayModel.get(index).value, kindLanguage)
-                        })
-                    }
 
                     Rectangle {
                         id: containerRectangle
@@ -377,8 +361,27 @@ Page {
                             color: Theme.primaryColor;
                         }
 
+                        RemorseItem { id: deleteRemorseItem }
+                        function deleteRemorse() {
+
+                            deleteRemorseItem.execute(container, qsTr("Deleting"),
+                                                          function() {
+                                                              var kindLanguage;
+                                                              if (toPayModel.get(index).kind === appWindow.variable)
+                                                                  kindLanguage = appWindow.variableEng
+                                                              if (toPayModel.get(index).kind === appWindow.fixed)
+                                                                  kindLanguage = appWindow.fixedEng
+                                                              if (toPayModel.get(index).kind === appWindow.oneTime)
+                                                                  kindLanguage = appWindow.oneTimeEng
+
+                                                              delItem(toPayModel.get(index).name, toPayModel.get(index).category, toPayModel.get(index).dateToPay, toPayModel.get(index).todayDate, toPayModel.get(index).value, kindLanguage)
+                                                              toPayModel.remove(index)
+                                                          })
+                        }
+
                         Component {
                             id: contextMenu
+
                             ContextMenu {
                                 anchors.horizontalCenter: container.horizontalCenter
 
@@ -405,7 +408,7 @@ Page {
                                 MenuItem {
                                     text: qsTr("Delete")
                                     onClicked: {
-                                        container.deleteRemorse();
+                                        containerRectangle.deleteRemorse();
                                     }
                                 }
                             }

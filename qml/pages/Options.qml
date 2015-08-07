@@ -253,9 +253,11 @@ Page {
 
                 menu: ContextMenu {
                     id: languageModel
-                    MenuItem { text: qsTr("English") }
-                    MenuItem { text: qsTr("Português") }
-                    //MenuItem { text: qsTr("Deutsch") }
+                    MenuItem { text: qsTr("System Locale") }
+                    MenuItem { text: "English" }
+                    MenuItem { text: "Português" }
+                    MenuItem { text: "Deutsch" }
+                    MenuItem { text: "Nederlands" }
                 }
                 onCurrentIndexChanged:
                 {

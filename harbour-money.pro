@@ -23,8 +23,8 @@ OTHER_FILES += \
     rpm/harbour-money.yaml \
     #translations/*.ts \
     harbour-money.desktop \
-    translations/harbour-money-English.ts \
-    translations/harbour-money-Portugues.ts \
+    #translations/harbour-money-English.ts \
+    #translations/harbour-money-Portugues.ts \
 
 #i18n.path = /usr/share/harbour-money/translations
 #i18n.files = translations/harbour-money-Portugues.qm \
@@ -35,9 +35,11 @@ OTHER_FILES += \
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-#TRANSLATIONS += translations/harbour-money-Deutsch.ts
 TRANSLATIONS += translations/harbour-money-pt-br.ts
+TRANSLATIONS += translations/harbour-money-pt.ts
 TRANSLATIONS += translations/harbour-money-en.ts
+TRANSLATIONS += translations/harbour-money-de.ts
+TRANSLATIONS += translations/harbour-money-nl.ts
 
 HEADERS += \
     src/options.h

@@ -11,12 +11,13 @@ Page {
     SilicaFlickable
     {
         anchors.fill: parent
-        contentHeight: about_column.height
+        contentHeight: about_column.height + about_translators_column.height
         contentWidth: parent.width
         Column {
             id: about_column
             spacing: Theme.paddingMedium
             width: parent.width
+            anchors.top: parent.top
             PageHeader {
                 title: qsTr("About")
             }
@@ -114,6 +115,53 @@ Page {
                     anchors.fill: parent
                     onClicked: Qt.openUrlExternally("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R7ZWGUQTHQRJ4")
                 }
+            }
+        }
+        Column
+        {
+            id: about_translators_column
+            spacing: Theme.paddingMedium
+            width: parent.width
+            anchors.top: about_column.bottom
+            anchors.topMargin: 40
+            Separator {
+                width: parent.width
+                color: Theme.secondaryColor
+            }
+            Label{
+                text: qsTr("Special thanks to the translators:")
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.highlightColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Dutch"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.primaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Nathan Follens"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.secondaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "German"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.primaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Patrick Meier"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.secondaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
             }
         }
     }

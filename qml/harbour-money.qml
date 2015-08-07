@@ -66,7 +66,15 @@ ApplicationWindow
     property string months: qsTr("months")
     property string days: qsTr("days")
 
-    initialPage: Qt.resolvedUrl("pages/Paid.qml")//Paid { }
+    property Item paidPage
+
+    initialPage: Component {
+        Paid {
+            id: paidPage
+            Component.onCompleted: appWindow.paidPage = paidPage
+        }
+    }
+
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
     Component.onCompleted:
