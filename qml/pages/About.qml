@@ -28,7 +28,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
             }
             Label {
-                text: "0.3.1"
+                text: "0.4.1"
                 color: Theme.primaryColor
                 font.pixelSize: Theme.fontSizeMedium
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -132,7 +132,7 @@ Page {
                 text: qsTr("Special thanks to the translators:")
                 horizontalAlignment: Text.AlignHCenter
                 color: Theme.highlightColor
-                font.pixelSize: Theme.fontSizeMedium
+                font.pixelSize: Theme.fontSizeSmall
                 anchors.horizontalCenter: parent.horizontalCenter
             }
             Label{

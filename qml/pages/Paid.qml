@@ -313,7 +313,7 @@ Page {
                             text: category.substring(0, 1)
                             height: 2 * textAltura.height
                             horizontalAlignment: Text.AlignHCenter
-                            width: height
+                            width: height * 0.8
                             font.pixelSize: 2 * Theme.fontSizeExtraLarge
                             anchors.top: parent.top
                             anchors.topMargin: 12
