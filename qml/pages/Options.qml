@@ -70,7 +70,7 @@ Page {
                 tx.executeSql('UPDATE PAID SET CATEGORY = "Other" WHERE CATEGORY = "' + category + '"');
                 tx.executeSql('UPDATE TO_PAY SET CATEGORY = "Other" WHERE CATEGORY = "' + category + '"');
                 tx.executeSql('DELETE FROM CATEGORIES WHERE NAME = "' + category + '"');
-                getCategories();
+                //getCategories();
             }
         )
     }
@@ -303,14 +303,6 @@ Page {
                     width: ListView.view.width;
                     menu: contextMenu
 
-                    function deleteRemorse() {
-                        remorseAction(qsTr("Delete", "Delete item"),
-                        function() {
-                            if(categoriesModel.get(index).category !== "Other")
-                                delCategory(categoriesModel.get(index).category)
-                        })
-                    }
-
                     Rectangle {
                         id: containerRectangle
                         color: "transparent"
@@ -339,6 +331,28 @@ Page {
                             color: Theme.primaryColor;
                         }
 
+
+                        /*function deleteRemorse() {
+                            remorseAction(qsTr("Delete", "Delete item"),
+                            function() {
+                                if(categoriesModel.get(index).category !== "Other")
+                                    delCategory(categoriesModel.get(index).category)
+                            })
+                        }*/
+
+                        RemorseItem { id: deleteRemorseItem }
+                        function deleteRemorse() {
+
+                            deleteRemorseItem.execute(container, qsTr("Deleting"),
+                                                          function() {
+                                                              if(categoriesModel.get(index).category !== "Other")
+                                                              {
+                                                                  delCategory(categoriesModel.get(index).category)
+                                                                  categoriesModel.remove(index)
+                                                              }
+                                                          })
+                        }
+
                         Component {
                             id: contextMenu
                             ContextMenu {
@@ -346,7 +360,7 @@ Page {
                                 MenuItem {
                                     text: qsTr("Delete")
                                     onClicked: {
-                                        deleteRemorse();
+                                        containerRectangle.deleteRemorse()
                                     }
                                 }
                             }

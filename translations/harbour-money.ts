@@ -193,13 +193,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="307"/>
-        <source>Delete</source>
-        <comment>Delete item</comment>
+        <location filename="../qml/pages/Options.qml" line="346"/>
+        <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="347"/>
+        <location filename="../qml/pages/Options.qml" line="361"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>

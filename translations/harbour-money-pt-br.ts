@@ -162,7 +162,7 @@
     <message>
         <source>Delete</source>
         <comment>Delete item</comment>
-        <translation>Deletar</translation>
+        <translation type="vanished">Deletar</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -211,6 +211,10 @@
     <message>
         <source>System Locale</source>
         <translation>Locale do Sistema</translation>
+    </message>
+    <message>
+        <source>Deleting</source>
+        <translation type="unfinished">Deletando</translation>
     </message>
 </context>
 <context>
