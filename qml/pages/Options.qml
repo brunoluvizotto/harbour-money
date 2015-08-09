@@ -278,10 +278,11 @@ Page {
                 menu: ContextMenu {
                     id: languageModel
                     MenuItem { text: qsTr("System Locale") }
-                    MenuItem { text: "English" }
-                    MenuItem { text: "Português" }
                     MenuItem { text: "Deutsch" }
+                    MenuItem { text: "English" }
                     MenuItem { text: "Nederlands" }
+                    MenuItem { text: "Norsk Bokmål" }
+                    MenuItem { text: "Português" }
                 }
                 onCurrentIndexChanged:
                 {

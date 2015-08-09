@@ -59,6 +59,9 @@ int main(int argc, char *argv[])
     else if (options.getLanguage() == "Nederlands") {
         loadLanguage = "harbour-money-nl";
     }
+    else if (options.getLanguage() == "Norsk Bokmål") {
+        loadLanguage = "harbour-money-nb";
+    }
     else {
         loadLanguage = "harbour-money-en";
     }

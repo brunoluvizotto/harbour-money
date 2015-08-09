@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="nb">
 <context>
     <name>About</name>
     <message>
         <location filename="../qml/pages/About.qml" line="22"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="37"/>
         <source>Author: </source>
-        <translation type="unfinished"></translation>
+        <translation>Programmerer: </translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="132"/>
         <source>Special thanks to the translators:</source>
-        <translation type="unfinished"></translation>
+        <translation>Takk til oversetterene:</translation>
     </message>
 </context>
 <context>
@@ -24,27 +24,27 @@
     <message>
         <location filename="../qml/pages/Add.qml" line="115"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="143"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Navn:</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
         <source>Date of Activity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivitetsdato:</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="268"/>
         <source>Date of Paying:</source>
-        <translation type="unfinished"></translation>
+        <translation>Betalingsdato:</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="169"/>
         <source>Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verdi:</translation>
     </message>
 </context>
 <context>
@@ -52,17 +52,17 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="42"/>
         <source>Money</source>
-        <translation type="unfinished"></translation>
+        <translation>Penger</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="53"/>
         <source>Paid:</source>
-        <translation type="unfinished"></translation>
+        <translation>Betalt:</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="61"/>
         <source>To Pay:</source>
-        <translation type="unfinished"></translation>
+        <translation>Å betale:</translation>
     </message>
 </context>
 <context>
@@ -70,12 +70,12 @@
     <message>
         <location filename="../qml/pages/EditCategoryDialog.qml" line="58"/>
         <source>Edit Category:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger kategori:</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditCategoryDialog.qml" line="71"/>
         <source>New category name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt kategorinavn</translation>
     </message>
 </context>
 <context>
@@ -83,27 +83,27 @@
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="125"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="152"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Navn:</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
         <source>Date of Activity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivitetsdato:</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="289"/>
         <source>Date of Paying:</source>
-        <translation type="unfinished"></translation>
+        <translation>Betalingsdato:</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="178"/>
         <source>Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verdi:</translation>
     </message>
 </context>
 <context>
@@ -111,119 +111,119 @@
     <message>
         <location filename="../qml/pages/Options.qml" line="9"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Annen</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="104"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillinger</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="123"/>
         <source>Paid</source>
-        <translation type="unfinished"></translation>
+        <translation>Betalt</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="129"/>
         <source>Interval Shown</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervall som vises</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="161"/>
         <source>Stats - All Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistikker - alle kategorier</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="165"/>
         <source>Target - Variable (Month)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mål - variabel (måned)</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="176"/>
         <source>Days to show</source>
-        <translation type="unfinished"></translation>
+        <translation>Dager å vise</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="184"/>
         <source>Months to show</source>
-        <translation type="unfinished"></translation>
+        <translation>Måneder å vise</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="192"/>
         <source>Currency</source>
-        <translation type="unfinished"></translation>
+        <translation>Valuta</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="200"/>
         <source>Before</source>
-        <translation type="unfinished"></translation>
+        <translation>Før</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="210"/>
         <source>After</source>
-        <translation type="unfinished"></translation>
+        <translation>Etter</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="220"/>
         <source>Stats - Single Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistikker - enkel kategori</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="224"/>
         <source>Days</source>
-        <translation type="unfinished"></translation>
+        <translation>Dager</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="241"/>
         <source>Months</source>
-        <translation type="unfinished"></translation>
+        <translation>Måneder</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="260"/>
         <location filename="../qml/pages/Options.qml" line="263"/>
         <source> to show</source>
-        <translation type="unfinished"></translation>
+        <translation> å vise</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="268"/>
         <location filename="../qml/pages/Options.qml" line="275"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Språk</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="280"/>
         <source>System Locale</source>
-        <translation type="unfinished"></translation>
+        <translation>Systemspråk</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="298"/>
+        <location filename="../qml/pages/Options.qml" line="299"/>
         <source>Categories</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorier</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="303"/>
+        <location filename="../qml/pages/Options.qml" line="304"/>
         <source>Category Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategorinavn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="311"/>
+        <location filename="../qml/pages/Options.qml" line="312"/>
         <source>Add New Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til ny kategori</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="370"/>
+        <location filename="../qml/pages/Options.qml" line="371"/>
         <source>Deleting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sletter</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="386"/>
+        <location filename="../qml/pages/Options.qml" line="387"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="392"/>
+        <location filename="../qml/pages/Options.qml" line="393"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett</translation>
     </message>
 </context>
 <context>
@@ -231,57 +231,57 @@
     <message>
         <location filename="../qml/pages/Paid.qml" line="240"/>
         <source>Paid</source>
-        <translation type="unfinished"></translation>
+        <translation>Betalt</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="254"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="258"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillinger</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="262"/>
         <source>Stats</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistikker</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="266"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="346"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Akt. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="356"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bet. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="388"/>
         <source>Deleting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sletter</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="410"/>
         <source>Set To Pay</source>
-        <translation type="unfinished"></translation>
+        <translation>Sett til Å betale</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="416"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location filename="../qml/pages/Paid.qml" line="430"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett</translation>
     </message>
 </context>
 <context>
@@ -289,22 +289,22 @@
     <message>
         <location filename="../qml/pages/Stats.qml" line="77"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillinger</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="84"/>
         <source>Stats</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistikker</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="105"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Type</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="111"/>
         <source>All Types</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle typer</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="121"/>
@@ -314,26 +314,26 @@
         <location filename="../qml/pages/Stats.qml" line="1104"/>
         <location filename="../qml/pages/Stats.qml" line="1165"/>
         <source>Last </source>
-        <translation type="unfinished"></translation>
+        <translation>Siste </translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="121"/>
         <location filename="../qml/pages/Stats.qml" line="976"/>
         <source> days</source>
-        <translation type="unfinished"></translation>
+        <translation> dager</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="132"/>
         <location filename="../qml/pages/Stats.qml" line="305"/>
         <source>Variable</source>
-        <translation type="unfinished"></translation>
+        <translation>Variabel</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="140"/>
         <location filename="../qml/pages/Stats.qml" line="312"/>
         <location filename="../qml/pages/Stats.qml" line="523"/>
         <source>Show Activities</source>
-        <translation type="unfinished"></translation>
+        <translation>Vis aktiviteter</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="155"/>
@@ -342,7 +342,7 @@
         <location filename="../qml/pages/Stats.qml" line="759"/>
         <source>Delete</source>
         <comment>Delete item</comment>
-        <translation type="unfinished"></translation>
+        <translation>Slett</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="209"/>
@@ -350,7 +350,7 @@
         <location filename="../qml/pages/Stats.qml" line="592"/>
         <location filename="../qml/pages/Stats.qml" line="813"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Akt. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="219"/>
@@ -358,7 +358,7 @@
         <location filename="../qml/pages/Stats.qml" line="602"/>
         <location filename="../qml/pages/Stats.qml" line="823"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bet. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="254"/>
@@ -366,7 +366,7 @@
         <location filename="../qml/pages/Stats.qml" line="637"/>
         <location filename="../qml/pages/Stats.qml" line="858"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="268"/>
@@ -374,53 +374,53 @@
         <location filename="../qml/pages/Stats.qml" line="652"/>
         <location filename="../qml/pages/Stats.qml" line="873"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="294"/>
         <location filename="../qml/pages/Stats.qml" line="1165"/>
         <source> months</source>
-        <translation type="unfinished"></translation>
+        <translation> måneder</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="473"/>
         <source>Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategori</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="683"/>
         <source>Fetch Database</source>
-        <translation type="unfinished"></translation>
+        <translation>Hent databank</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="689"/>
         <source>Activity Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivitetsnavn</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="706"/>
         <source>From</source>
-        <translation type="unfinished"></translation>
+        <translation>Fra</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="728"/>
         <source>To</source>
-        <translation type="unfinished"></translation>
+        <translation>Til</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="884"/>
         <source>Fetch</source>
-        <translation type="unfinished"></translation>
+        <translation>Hent</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="978"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>I dag</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="1167"/>
         <source>This month</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne måneden</translation>
     </message>
 </context>
 <context>
@@ -428,62 +428,62 @@
     <message>
         <location filename="../qml/pages/ToPay.qml" line="229"/>
         <source>To Pay</source>
-        <translation type="unfinished"></translation>
+        <translation>Å betale</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="234"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Om</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="238"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillinger</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="242"/>
         <source>Stats</source>
-        <translation type="unfinished"></translation>
+        <translation>Statistikker</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="246"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="325"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Akt. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="335"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bet. dato: </translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="367"/>
         <source>Deleting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sletter</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="389"/>
         <source>Set Paid</source>
-        <translation type="unfinished"></translation>
+        <translation>Sett til Betalt</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="395"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="409"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Slett</translation>
     </message>
     <message>
         <location filename="../qml/pages/ToPay.qml" line="438"/>
         <source>Total: </source>
-        <translation type="unfinished"></translation>
+        <translation>Total: </translation>
     </message>
 </context>
 <context>
@@ -491,67 +491,67 @@
     <message>
         <location filename="../qml/harbour-money.qml" line="45"/>
         <source>Variable</source>
-        <translation type="unfinished"></translation>
+        <translation>Variabel</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="46"/>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fast</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="47"/>
         <source>One Time</source>
-        <translation type="unfinished"></translation>
+        <translation>En gang</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="57"/>
         <source>Today</source>
-        <translation type="unfinished"></translation>
+        <translation>I dag</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="58"/>
         <source>Last 3 Days</source>
-        <translation type="unfinished"></translation>
+        <translation>Siste 3 dager</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="59"/>
         <source>Last 7 Days</source>
-        <translation type="unfinished"></translation>
+        <translation>Siste 7 dager</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="60"/>
         <source>Last 15 Days</source>
-        <translation type="unfinished"></translation>
+        <translation>Siste 15 dager</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="61"/>
         <source>Last 30 Days</source>
-        <translation type="unfinished"></translation>
+        <translation>Siste 30 dager</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="62"/>
         <source>This Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne måneden</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="63"/>
         <source>This Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette året</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="64"/>
         <source>Eternity</source>
-        <translation type="unfinished"></translation>
+        <translation>Evighet</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="66"/>
         <source>months</source>
-        <translation type="unfinished"></translation>
+        <translation>måneder</translation>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="67"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>dager</translation>
     </message>
 </context>
 </TS>

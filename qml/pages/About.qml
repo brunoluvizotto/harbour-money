@@ -163,6 +163,20 @@ Page {
                 font.pixelSize: Theme.fontSizeMedium
                 anchors.horizontalCenter: parent.horizontalCenter
             }
+            Label{
+                text: "Norwegian (Bokmål)"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.primaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Nathan Follens"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.secondaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
         }
     }
 }

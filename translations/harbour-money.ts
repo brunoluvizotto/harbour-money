@@ -196,32 +196,32 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="298"/>
+        <location filename="../qml/pages/Options.qml" line="299"/>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="303"/>
+        <location filename="../qml/pages/Options.qml" line="304"/>
         <source>Category Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="311"/>
+        <location filename="../qml/pages/Options.qml" line="312"/>
         <source>Add New Category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="370"/>
+        <location filename="../qml/pages/Options.qml" line="371"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="392"/>
+        <location filename="../qml/pages/Options.qml" line="393"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="386"/>
+        <location filename="../qml/pages/Options.qml" line="387"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
