@@ -143,6 +143,14 @@ Page {
         )
     }
 
+    function sumTotalValue()
+    {
+        totalValue = 0;
+        for(var i = 0; i < toPayModel.count; ++i)
+            totalValue += parseFloat(toPayModel.get(i).value)
+        appWindow.toPayTotal = totalValue
+    }
+
     function insertItem(type, name, category, date, todayDate, value, kind)
     {
         var db = LocalStorage.openDatabaseSync("ExpensesMan DB", "1.0", "Database for the ExpensesMan app!", 1000000);
@@ -298,7 +306,7 @@ Page {
                             anchors.topMargin: 12
                             anchors.left: parent.left
                             anchors.leftMargin: textAltura.anchors.leftMargin
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Text {
@@ -309,7 +317,7 @@ Page {
                             anchors.top: parent.top
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
                         Text {
                             id:categoryText
@@ -318,7 +326,7 @@ Page {
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateTodayText
@@ -328,7 +336,7 @@ Page {
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateToPayText
@@ -338,7 +346,7 @@ Page {
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: valueText
@@ -348,7 +356,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: kindText
@@ -358,7 +366,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
                             anchors.rightMargin: 30
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         RemorseItem { id: deleteRemorseItem }
@@ -376,6 +384,7 @@ Page {
 
                                                               delItem(toPayModel.get(index).name, toPayModel.get(index).category, toPayModel.get(index).dateToPay, toPayModel.get(index).todayDate, toPayModel.get(index).value, kindLanguage)
                                                               toPayModel.remove(index)
+                                                              sumTotalValue()
                                                           })
                         }
 
@@ -402,7 +411,6 @@ Page {
                                         else if (toPayModel.get(index).kind === appWindow.oneTime)
                                             kindIndex = 2
                                         var dialog = pageStack.push("EditDialog.qml", {"parentKind": "TO_PAY", "nameOld": toPayModel.get(index).name, "categoryOld": toPayModel.get(index).category, "dateOld": toPayModel.get(index).dateToPay, "todayDateOld": toPayModel.get(index).todayDate, "valueOld": toPayModel.get(index).value, "kindOldIndex": kindIndex})
-                                        dialog.accepted.connect( function() {rootToPay.getToPay()} )
                                     }
                                 }
                                 MenuItem {

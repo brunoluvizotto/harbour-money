@@ -182,7 +182,7 @@ Page {
                             anchors.topMargin: 12
                             anchors.left: parent.left
                             anchors.leftMargin: textAltura.anchors.leftMargin
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Text {
@@ -193,7 +193,7 @@ Page {
                             anchors.top: parent.top
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
                         Text {
                             id:categoryText
@@ -202,7 +202,7 @@ Page {
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateTodayText
@@ -212,7 +212,7 @@ Page {
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateToPayText
@@ -222,7 +222,7 @@ Page {
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: valueText
@@ -232,7 +232,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: kindText
@@ -242,7 +242,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
                             anchors.rightMargin: 30
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Component {
@@ -354,7 +354,7 @@ Page {
                             anchors.topMargin: 12
                             anchors.left: parent.left
                             anchors.leftMargin: textAltura.anchors.leftMargin
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Text {
@@ -365,7 +365,7 @@ Page {
                             anchors.top: parent.top
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
                         Text {
                             id:categoryText
@@ -374,7 +374,7 @@ Page {
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateTodayText
@@ -384,7 +384,7 @@ Page {
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateToPayText
@@ -394,7 +394,7 @@ Page {
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: valueText
@@ -404,7 +404,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: kindText
@@ -414,7 +414,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
                             anchors.rightMargin: 30
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Component {
@@ -565,7 +565,7 @@ Page {
                             anchors.topMargin: 12
                             anchors.left: parent.left
                             anchors.leftMargin: textAltura.anchors.leftMargin
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Text {
@@ -576,7 +576,7 @@ Page {
                             anchors.top: parent.top
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
                         Text {
                             id:categoryText
@@ -585,7 +585,7 @@ Page {
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateTodayText
@@ -595,7 +595,7 @@ Page {
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateToPayText
@@ -605,7 +605,7 @@ Page {
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: valueText
@@ -615,7 +615,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: kindText
@@ -625,7 +625,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
                             anchors.rightMargin: 30
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Component {
@@ -786,7 +786,7 @@ Page {
                             anchors.topMargin: 12
                             anchors.left: parent.left
                             anchors.leftMargin: textAltura.anchors.leftMargin
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Text {
@@ -797,7 +797,7 @@ Page {
                             anchors.top: parent.top
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.secondaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
                         Text {
                             id:categoryText
@@ -806,7 +806,7 @@ Page {
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateTodayText
@@ -816,7 +816,7 @@ Page {
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: dateToPayText
@@ -826,7 +826,7 @@ Page {
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: valueText
@@ -836,7 +836,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
                             anchors.leftMargin: 40
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
                         Text {
                             id: kindText
@@ -846,7 +846,7 @@ Page {
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
                             anchors.rightMargin: 30
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor;
                         }
 
                         Component {

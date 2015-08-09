@@ -353,7 +353,7 @@ Page {
                             anchors.leftMargin: 12
                             anchors.right: parent.right
                             anchors.rightMargin: 12
-                            color: Theme.primaryColor;
+                            color: container.highlighted ? Theme.highlightColor : Theme.primaryColor;
                         }
 
 
