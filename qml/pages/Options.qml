@@ -6,6 +6,8 @@ Page {
     id: rootOptions
     visible: true
 
+    property string other: qsTr("Other")
+
     allowedOrientations: Orientation.Portrait + Orientation.Landscape + Orientation.LandscapeInverted
 
     function getCategories()
@@ -45,6 +47,21 @@ Page {
         )
     }
 
+    function checkOtherCategory()
+    {
+        var db = LocalStorage.openDatabaseSync("ExpensesMan DB", "1.0", "Database for the ExpensesMan app!", 1000000);
+
+        db.transaction(
+            function(tx) {
+                var rs = tx.executeSql('SELECT * FROM CATEGORIES WHERE NAME = "' + other + '"');
+                if (!rs.rows.length)
+                {
+                    tx.executeSql('INSERT INTO CATEGORIES VALUES ("' + other + '")');
+                }
+            }
+        )
+    }
+
     function addCategory(category)
     {
         var db = LocalStorage.openDatabaseSync("ExpensesMan DB", "1.0", "Database for the ExpensesMan app!", 1000000);
@@ -67,12 +84,19 @@ Page {
 
         db.transaction(
             function(tx) {
-                tx.executeSql('UPDATE PAID SET CATEGORY = "Other" WHERE CATEGORY = "' + category + '"');
-                tx.executeSql('UPDATE TO_PAY SET CATEGORY = "Other" WHERE CATEGORY = "' + category + '"');
+                tx.executeSql('UPDATE PAID SET CATEGORY = "' + other + '" WHERE CATEGORY = "' + category + '"');
+                tx.executeSql('UPDATE TO_PAY SET CATEGORY = "' + other + '" WHERE CATEGORY = "' + category + '"');
                 tx.executeSql('DELETE FROM CATEGORIES WHERE NAME = "' + category + '"');
                 //getCategories();
             }
         )
+    }
+
+    onStatusChanged:
+    {
+        if (status === PageStatus.Active) {
+            getCategories();
+        }
     }
 
     PageHeader {
@@ -345,7 +369,8 @@ Page {
 
                             deleteRemorseItem.execute(container, qsTr("Deleting"),
                                                           function() {
-                                                              if(categoriesModel.get(index).category !== "Other")
+                                                              checkOtherCategory();
+                                                              if(categoriesModel.get(index).category !== other)
                                                               {
                                                                   delCategory(categoriesModel.get(index).category)
                                                                   categoriesModel.remove(index)
@@ -357,6 +382,12 @@ Page {
                             id: contextMenu
                             ContextMenu {
                                 anchors.horizontalCenter: container.horizontalCenter
+                                MenuItem {
+                                    text: qsTr("Edit")
+                                    onClicked: {
+                                        var dialog = pageStack.push("EditCategoryDialog.qml", {"oldCategory": categoriesModel.get(index).category})
+                                    }
+                                }
                                 MenuItem {
                                     text: qsTr("Delete")
                                     onClicked: {

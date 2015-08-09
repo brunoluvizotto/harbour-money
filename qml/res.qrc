@@ -14,5 +14,6 @@
         <file>Imagens/linkedin-icon-logo.png</file>
         <file>Imagens/gmail-icon-logo.png</file>
         <file>Imagens/btn_donate_LG.gif</file>
+        <file>pages/EditCategoryDialog.qml</file>
     </qresource>
 </RCC>

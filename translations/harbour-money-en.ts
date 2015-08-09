@@ -71,6 +71,17 @@
     </message>
 </context>
 <context>
+    <name>EditCategoryDialog</name>
+    <message>
+        <source>New category name</source>
+        <translation>New category name</translation>
+    </message>
+    <message>
+        <source>Edit Category:</source>
+        <translation>Edit Category:</translation>
+    </message>
+</context>
+<context>
     <name>EditDialog</name>
     <message>
         <source>Edit</source>
@@ -242,7 +253,15 @@
     </message>
     <message>
         <source>Deleting</source>
-        <translation type="unfinished">Deleting</translation>
+        <translation>Deleting</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Edit</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation></translation>
     </message>
 </context>
 <context>

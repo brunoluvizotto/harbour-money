@@ -36,6 +36,7 @@ Dialog {
     id: root
 
     allowedOrientations: Orientation.Portrait + Orientation.Landscape + Orientation.LandscapeInverted
+    canAccept: (textInputName.text.length > 0 && textInputValue.text.length > 0 && textInputDate.text.length > 0 && textInputTodayDate.text.length > 0)
 
     property string parentKind: ""
 
@@ -151,8 +152,11 @@ Dialog {
                     horizontalAlignment: TextInput.AlignHCenter
                     maximumLength: 26
                     focus: true
-                    //anchors.horizontalCenter: parent.horizontalCenter
                     font.pixelSize: Theme.fontSizeMedium;
+
+                    EnterKey.enabled: text.length > 0
+                    EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                    EnterKey.onClicked: textInputValue.focus = true
                 }
             }
 
@@ -175,6 +179,10 @@ Dialog {
                     horizontalAlignment: TextInput.AlignHCenter
                     maximumLength: 26
                     font.pixelSize: Theme.fontSizeMedium;
+
+                    EnterKey.enabled: text.length > 0
+                    EnterKey.iconSource: "image://theme/icon-m-enter-next"
+                    EnterKey.onClicked: textInputValue.focus = false
                 }
             }
 

@@ -314,7 +314,7 @@ Page {
                         Text {
                             id:categoryText
                             text: category
-                            font.pixelSize: Theme.fontSizeMedium;
+                            font.pixelSize: Theme.fontSizeSmall;
                             font.family: Theme.fontFamily
                             anchors.bottom: valueText.bottom
                             anchors.horizontalCenter: textFirstLetter.horizontalCenter
@@ -323,7 +323,7 @@ Page {
                         Text {
                             id: dateTodayText
                             text: qsTr("Act. Date: ") + todayDate;
-                            font.pixelSize: categoryText.font.pixelSize;
+                            font.pixelSize: Theme.fontSizeMedium;
                             font.family: Theme.fontFamily
                             anchors.top: textAltura.bottom
                             anchors.left: textFirstLetter.right
@@ -333,7 +333,7 @@ Page {
                         Text {
                             id: dateToPayText
                             text: qsTr("Paym. Date: ") + dateToPay;
-                            font.pixelSize: categoryText.font.pixelSize;
+                            font.pixelSize: Theme.fontSizeMedium;
                             font.family: Theme.fontFamily
                             anchors.top: dateTodayText.bottom
                             anchors.left: textFirstLetter.right
@@ -343,7 +343,7 @@ Page {
                         Text {
                             id: valueText
                             text: (options.currencyBefore ? (options.currency + " ") : "") + value.toFixed(2).replace(".",",") + (!options.currencyBefore ? (" " + options.currency) : "");
-                            font.pixelSize: categoryText.font.pixelSize;
+                            font.pixelSize: Theme.fontSizeMedium;
                             font.family: Theme.fontFamily
                             anchors.top: dateToPayText.bottom
                             anchors.left: textFirstLetter.right
@@ -353,7 +353,7 @@ Page {
                         Text {
                             id: kindText
                             text: kind;
-                            font.pixelSize: categoryText.font.pixelSize;
+                            font.pixelSize: Theme.fontSizeMedium;
                             font.family: Theme.fontFamily
                             anchors.top: dateToPayText.bottom
                             anchors.right: parent.right
