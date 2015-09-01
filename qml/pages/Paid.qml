@@ -464,7 +464,7 @@ Page {
 
             Text {
                 id: textTotal
-                text: "Total: " + (options.currencyBefore ? (options.currency + " ") : "") + totalValue.toFixed(2).replace(".",",").toString() + (!options.currencyBefore ? (" " + options.currency) : "") // (Math.round(parseFloat(totalValue) * 100) / 100)
+                text: qsTr("Total: ") + (options.currencyBefore ? (options.currency + " ") : "") + totalValue.toFixed(2).replace(".",",").toString() + (!options.currencyBefore ? (" " + options.currency) : "") // (Math.round(parseFloat(totalValue) * 100) / 100)
                 height: 60
                 anchors.bottomMargin: Theme.paddingMedium
                 anchors.bottom: parent.bottom

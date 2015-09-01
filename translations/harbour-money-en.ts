@@ -50,6 +50,10 @@
         <source>Value:</source>
         <translation>Value:</translation>
     </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -314,6 +318,10 @@
     <message>
         <source>Deleting</source>
         <translation>Deleting</translation>
+    </message>
+    <message>
+        <source>Total: </source>
+        <translation type="unfinished">Total: </translation>
     </message>
 </context>
 <context>

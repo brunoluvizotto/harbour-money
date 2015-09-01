@@ -38,6 +38,10 @@
         <source>Date of Activity:</source>
         <translation>Data da Atividade:</translation>
     </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Tipo</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
@@ -286,6 +290,10 @@
     <message>
         <source>Deleting</source>
         <translation>Deletando</translation>
+    </message>
+    <message>
+        <source>Total: </source>
+        <translation type="unfinished">Total: </translation>
     </message>
 </context>
 <context>

@@ -41,6 +41,7 @@ TRANSLATIONS += translations/harbour-money-en.ts
 TRANSLATIONS += translations/harbour-money-de.ts
 TRANSLATIONS += translations/harbour-money-nl.ts
 TRANSLATIONS += translations/harbour-money-nb.ts
+TRANSLATIONS += translations/harbour-money-ru.ts
 
 HEADERS += \
     src/options.h

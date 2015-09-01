@@ -283,6 +283,7 @@ Page {
                     MenuItem { text: "Nederlands" }
                     MenuItem { text: "Norsk Bokmål" }
                     MenuItem { text: "Português" }
+                    MenuItem { text: "Pусский" }
                 }
                 onCurrentIndexChanged:
                 {

@@ -32,6 +32,11 @@
         <translation>Naam:</translation>
     </message>
     <message>
+        <location filename="../qml/pages/Add.qml" line="208"/>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
         <source>Date of Activity:</source>
         <translation>Datum van activiteit:</translation>
@@ -196,12 +201,12 @@
         <translation>Systeemtaal</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="371"/>
+        <location filename="../qml/pages/Options.qml" line="372"/>
         <source>Deleting</source>
         <translation>Bezig met verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="387"/>
+        <location filename="../qml/pages/Options.qml" line="388"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
@@ -214,17 +219,17 @@
         <translation type="vanished">Português</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="299"/>
+        <location filename="../qml/pages/Options.qml" line="300"/>
         <source>Categories</source>
         <translation>Categorieën</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="304"/>
+        <location filename="../qml/pages/Options.qml" line="305"/>
         <source>Category Name</source>
         <translation>Categorienaam</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="312"/>
+        <location filename="../qml/pages/Options.qml" line="313"/>
         <source>Add New Category</source>
         <translation>Nieuwe categorie toevoegen</translation>
     </message>
@@ -234,7 +239,7 @@
         <translation type="vanished">Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="393"/>
+        <location filename="../qml/pages/Options.qml" line="394"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
@@ -300,6 +305,11 @@
         <location filename="../qml/pages/Paid.qml" line="438"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Paid.qml" line="467"/>
+        <source>Total: </source>
+        <translation type="unfinished">Totaal: </translation>
     </message>
 </context>
 <context>

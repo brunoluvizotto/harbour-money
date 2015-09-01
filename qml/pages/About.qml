@@ -11,7 +11,7 @@ Page {
     SilicaFlickable
     {
         anchors.fill: parent
-        contentHeight: about_column.height + about_translators_column.height
+        contentHeight: about_column.height + about_translators_column.height + about_translators_column.anchors.topMargin
         contentWidth: parent.width
         Column {
             id: about_column
@@ -172,6 +172,20 @@ Page {
             }
             Label{
                 text: "Nathan Follens"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.secondaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Pусский"
+                horizontalAlignment: Text.AlignHCenter
+                color: Theme.primaryColor
+                font.pixelSize: Theme.fontSizeMedium
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
+            Label{
+                text: "Alexey"
                 horizontalAlignment: Text.AlignHCenter
                 color: Theme.secondaryColor
                 font.pixelSize: Theme.fontSizeMedium
