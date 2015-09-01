@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE TS>
 <TS version="2.1" language="ru">
 <context>
@@ -32,14 +32,9 @@
         <translation>Имя:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Add.qml" line="208"/>
-        <source>Type</source>
-        <translation type="unfinished">Тип</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
         <source>Date of Activity:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="268"/>
@@ -96,19 +91,9 @@
         <translation>Имя:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="203"/>
-        <source>Category</source>
-        <translation type="unfinished">Категория</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/EditDialog.qml" line="219"/>
-        <source>Type</source>
-        <translation type="unfinished">Тип</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
         <source>Date of Activity:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="289"/>
@@ -211,32 +196,32 @@
         <translation>Язык системы</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="300"/>
+        <location filename="../qml/pages/Options.qml" line="298"/>
         <source>Categories</source>
         <translation>Категории</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="305"/>
+        <location filename="../qml/pages/Options.qml" line="303"/>
         <source>Category Name</source>
         <translation>Имя категории</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="313"/>
+        <location filename="../qml/pages/Options.qml" line="311"/>
         <source>Add New Category</source>
         <translation>Добавить новую категорию</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="372"/>
+        <location filename="../qml/pages/Options.qml" line="370"/>
         <source>Deleting</source>
         <translation>Удаление</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="388"/>
+        <location filename="../qml/pages/Options.qml" line="386"/>
         <source>Edit</source>
         <translation>Редактировать</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="394"/>
+        <location filename="../qml/pages/Options.qml" line="392"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
@@ -244,64 +229,59 @@
 <context>
     <name>Paid</name>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="248"/>
+        <location filename="../qml/pages/Paid.qml" line="240"/>
         <source>Paid</source>
         <translation>Оплачено</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="262"/>
+        <location filename="../qml/pages/Paid.qml" line="254"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="266"/>
+        <location filename="../qml/pages/Paid.qml" line="258"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="270"/>
+        <location filename="../qml/pages/Paid.qml" line="262"/>
         <source>Stats</source>
         <translation>Статистика</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="274"/>
+        <location filename="../qml/pages/Paid.qml" line="266"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="354"/>
+        <location filename="../qml/pages/Paid.qml" line="346"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="364"/>
+        <location filename="../qml/pages/Paid.qml" line="356"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="396"/>
+        <location filename="../qml/pages/Paid.qml" line="388"/>
         <source>Deleting</source>
         <translation>Удаление</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="419"/>
+        <location filename="../qml/pages/Paid.qml" line="410"/>
         <source>Set To Pay</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="425"/>
+        <location filename="../qml/pages/Paid.qml" line="416"/>
         <source>Edit</source>
         <translation>Редактировать</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="438"/>
+        <location filename="../qml/pages/Paid.qml" line="430"/>
         <source>Delete</source>
         <translation>Удалить</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Paid.qml" line="467"/>
-        <source>Total: </source>
-        <translation type="unfinished">Итого: </translation>
     </message>
 </context>
 <context>
@@ -370,7 +350,7 @@
         <location filename="../qml/pages/Stats.qml" line="592"/>
         <location filename="../qml/pages/Stats.qml" line="813"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="219"/>
@@ -378,7 +358,7 @@
         <location filename="../qml/pages/Stats.qml" line="602"/>
         <location filename="../qml/pages/Stats.qml" line="823"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="254"/>
@@ -446,62 +426,62 @@
 <context>
     <name>ToPay</name>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="237"/>
+        <location filename="../qml/pages/ToPay.qml" line="229"/>
         <source>To Pay</source>
         <translation>Для оплаты</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="242"/>
+        <location filename="../qml/pages/ToPay.qml" line="234"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="246"/>
+        <location filename="../qml/pages/ToPay.qml" line="238"/>
         <source>Settings</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="250"/>
+        <location filename="../qml/pages/ToPay.qml" line="242"/>
         <source>Stats</source>
         <translation>Статистика</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="254"/>
+        <location filename="../qml/pages/ToPay.qml" line="246"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="333"/>
+        <location filename="../qml/pages/ToPay.qml" line="325"/>
         <source>Act. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="343"/>
+        <location filename="../qml/pages/ToPay.qml" line="335"/>
         <source>Paym. Date: </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="375"/>
+        <location filename="../qml/pages/ToPay.qml" line="367"/>
         <source>Deleting</source>
         <translation>Удаление</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="398"/>
+        <location filename="../qml/pages/ToPay.qml" line="389"/>
         <source>Set Paid</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="404"/>
+        <location filename="../qml/pages/ToPay.qml" line="395"/>
         <source>Edit</source>
         <translation>Редактировать</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="417"/>
+        <location filename="../qml/pages/ToPay.qml" line="409"/>
         <source>Delete</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="446"/>
+        <location filename="../qml/pages/ToPay.qml" line="438"/>
         <source>Total: </source>
         <translation>Итого: </translation>
     </message>
@@ -516,7 +496,7 @@
     <message>
         <location filename="../qml/harbour-money.qml" line="46"/>
         <source>Fixed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qml/harbour-money.qml" line="47"/>
