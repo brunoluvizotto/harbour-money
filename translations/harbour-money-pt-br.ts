@@ -42,6 +42,10 @@
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Categoria</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

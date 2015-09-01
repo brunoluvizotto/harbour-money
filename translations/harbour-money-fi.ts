@@ -32,6 +32,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/pages/Add.qml" line="194"/>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/pages/Add.qml" line="208"/>
         <source>Type</source>
         <translation type="unfinished"></translation>

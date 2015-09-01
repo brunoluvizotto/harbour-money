@@ -191,7 +191,7 @@ Dialog {
                 width: parent.width
                 anchors.left: parent.left
                 //anchors.horizontalCenter: parent.horizontalCenter
-                label: "Category"
+                label: qsTr("Category")
 
                 menu: ContextMenu {
                       Repeater {

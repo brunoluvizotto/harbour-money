@@ -54,6 +54,10 @@
         <source>Type</source>
         <translation>Type</translation>
     </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Category</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>
