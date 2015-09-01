@@ -34,7 +34,7 @@
     <message>
         <location filename="../qml/pages/Add.qml" line="208"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
@@ -75,7 +75,7 @@
     <message>
         <location filename="../qml/pages/EditCategoryDialog.qml" line="58"/>
         <source>Edit Category:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeiten Kategorie:</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditCategoryDialog.qml" line="71"/>
@@ -98,12 +98,12 @@
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="203"/>
         <source>Category</source>
-        <translation type="unfinished">Kategorie</translation>
+        <translation>Kategorie</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="219"/>
         <source>Type</source>
-        <translation type="unfinished">Typ</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
@@ -218,7 +218,7 @@
     <message>
         <location filename="../qml/pages/Options.qml" line="388"/>
         <source>Edit</source>
-        <translation type="unfinished">Bearbeiten</translation>
+        <translation>Bearbeiten</translation>
     </message>
     <message>
         <source>English</source>
@@ -319,7 +319,7 @@
     <message>
         <location filename="../qml/pages/Paid.qml" line="467"/>
         <source>Total: </source>
-        <translation type="unfinished">Gesamt: </translation>
+        <translation>Gesamt: </translation>
     </message>
 </context>
 <context>

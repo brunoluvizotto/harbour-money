@@ -34,7 +34,7 @@
     <message>
         <location filename="../qml/pages/Add.qml" line="208"/>
         <source>Type</source>
-        <translation type="unfinished">Тип</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
@@ -98,12 +98,12 @@
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="203"/>
         <source>Category</source>
-        <translation type="unfinished">Категория</translation>
+        <translation>Категория</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="219"/>
         <source>Type</source>
-        <translation type="unfinished">Тип</translation>
+        <translation>Тип</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
@@ -301,7 +301,7 @@
     <message>
         <location filename="../qml/pages/Paid.qml" line="467"/>
         <source>Total: </source>
-        <translation type="unfinished">Итого: </translation>
+        <translation>Итого: </translation>
     </message>
 </context>
 <context>
@@ -353,7 +353,7 @@
         <location filename="../qml/pages/Stats.qml" line="312"/>
         <location filename="../qml/pages/Stats.qml" line="523"/>
         <source>Show Activities</source>
-        <translation type="unfinished">Показать статьи</translation>
+        <translation>Показать статьи</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="155"/>
@@ -410,12 +410,12 @@
     <message>
         <location filename="../qml/pages/Stats.qml" line="683"/>
         <source>Fetch Database</source>
-        <translation type="unfinished">Выбрать из базы</translation>
+        <translation>Выбрать из базы</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="689"/>
         <source>Activity Name</source>
-        <translation type="unfinished">Имя статьи</translation>
+        <translation>Имя статьи</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="706"/>

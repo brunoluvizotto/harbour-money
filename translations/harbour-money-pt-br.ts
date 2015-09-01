@@ -40,7 +40,7 @@
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
 </context>
 <context>
@@ -93,11 +93,11 @@
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Categoria</translation>
+        <translation>Categoria</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
 </context>
 <context>
@@ -301,7 +301,7 @@
     </message>
     <message>
         <source>Total: </source>
-        <translation type="unfinished">Total: </translation>
+        <translation>Total: </translation>
     </message>
 </context>
 <context>
