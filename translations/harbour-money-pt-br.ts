@@ -91,6 +91,14 @@
         <source>Value:</source>
         <translation>Valor:</translation>
     </message>
+    <message>
+        <source>Category</source>
+        <translation type="unfinished">Categoria</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation type="unfinished">Tipo</translation>
+    </message>
 </context>
 <context>
     <name>Options</name>

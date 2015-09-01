@@ -200,7 +200,7 @@ Dialog {
                 width: parent.width
                 anchors.left: parent.left
                 //anchors.horizontalCenter: parent.horizontalCenter
-                label: "Category"
+                label: qsTr("Category")
 
                 Component.onCompleted: getCategories()
 
@@ -216,7 +216,7 @@ Dialog {
                 width: parent.width
                 anchors.left: parent.left
                 //anchors.horizontalCenter: parent.horizontalCenter
-                label: "Type"
+                label: qsTr("Type")
 
                 menu: ContextMenu {
                     MenuItem { text: appWindow.variable }

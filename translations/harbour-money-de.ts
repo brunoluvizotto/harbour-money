@@ -96,6 +96,16 @@
         <translation>Name:</translation>
     </message>
     <message>
+        <location filename="../qml/pages/EditDialog.qml" line="203"/>
+        <source>Category</source>
+        <translation type="unfinished">Kategorie</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="219"/>
+        <source>Type</source>
+        <translation type="unfinished">Typ</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
         <source>Date of Activity:</source>
         <translation>Tag der Fälligkeit:</translation>

@@ -22,27 +22,32 @@
 <context>
     <name>Add</name>
     <message>
-        <location filename="../qml/pages/Add.qml" line="114"/>
+        <location filename="../qml/pages/Add.qml" line="115"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Add.qml" line="142"/>
+        <location filename="../qml/pages/Add.qml" line="143"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Add.qml" line="220"/>
+        <location filename="../qml/pages/Add.qml" line="208"/>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Add.qml" line="228"/>
         <source>Date of Activity:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Add.qml" line="260"/>
+        <location filename="../qml/pages/Add.qml" line="268"/>
         <source>Date of Paying:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Add.qml" line="165"/>
+        <location filename="../qml/pages/Add.qml" line="169"/>
         <source>Value:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -66,29 +71,52 @@
     </message>
 </context>
 <context>
+    <name>EditCategoryDialog</name>
+    <message>
+        <location filename="../qml/pages/EditCategoryDialog.qml" line="58"/>
+        <source>Edit Category:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditCategoryDialog.qml" line="71"/>
+        <source>New category name</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>EditDialog</name>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="124"/>
+        <location filename="../qml/pages/EditDialog.qml" line="125"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="151"/>
+        <location filename="../qml/pages/EditDialog.qml" line="152"/>
         <source>Name:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="241"/>
+        <location filename="../qml/pages/EditDialog.qml" line="203"/>
+        <source>Category</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="219"/>
+        <source>Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="249"/>
         <source>Date of Activity:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="281"/>
+        <location filename="../qml/pages/EditDialog.qml" line="289"/>
         <source>Date of Paying:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/EditDialog.qml" line="174"/>
+        <location filename="../qml/pages/EditDialog.qml" line="178"/>
         <source>Value:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -96,110 +124,119 @@
 <context>
     <name>Options</name>
     <message>
-        <location filename="../qml/pages/Options.qml" line="80"/>
+        <location filename="../qml/pages/Options.qml" line="9"/>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Options.qml" line="104"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="99"/>
+        <location filename="../qml/pages/Options.qml" line="123"/>
         <source>Paid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="105"/>
+        <location filename="../qml/pages/Options.qml" line="129"/>
         <source>Interval Shown</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="137"/>
+        <location filename="../qml/pages/Options.qml" line="161"/>
         <source>Stats - All Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="141"/>
+        <location filename="../qml/pages/Options.qml" line="165"/>
         <source>Target - Variable (Month)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="152"/>
+        <location filename="../qml/pages/Options.qml" line="176"/>
         <source>Days to show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="160"/>
+        <location filename="../qml/pages/Options.qml" line="184"/>
         <source>Months to show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="168"/>
+        <location filename="../qml/pages/Options.qml" line="192"/>
         <source>Currency</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="176"/>
+        <location filename="../qml/pages/Options.qml" line="200"/>
         <source>Before</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="186"/>
+        <location filename="../qml/pages/Options.qml" line="210"/>
         <source>After</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="196"/>
+        <location filename="../qml/pages/Options.qml" line="220"/>
         <source>Stats - Single Category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="200"/>
+        <location filename="../qml/pages/Options.qml" line="224"/>
         <source>Days</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="217"/>
+        <location filename="../qml/pages/Options.qml" line="241"/>
         <source>Months</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="236"/>
-        <location filename="../qml/pages/Options.qml" line="239"/>
+        <location filename="../qml/pages/Options.qml" line="260"/>
+        <location filename="../qml/pages/Options.qml" line="263"/>
         <source> to show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="244"/>
-        <location filename="../qml/pages/Options.qml" line="251"/>
+        <location filename="../qml/pages/Options.qml" line="268"/>
+        <location filename="../qml/pages/Options.qml" line="275"/>
         <source>Language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="256"/>
+        <location filename="../qml/pages/Options.qml" line="280"/>
         <source>System Locale</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="274"/>
+        <location filename="../qml/pages/Options.qml" line="300"/>
         <source>Categories</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="279"/>
+        <location filename="../qml/pages/Options.qml" line="305"/>
         <source>Category Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="287"/>
+        <location filename="../qml/pages/Options.qml" line="313"/>
         <source>Add New Category</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="307"/>
-        <source>Delete</source>
-        <comment>Delete item</comment>
+        <location filename="../qml/pages/Options.qml" line="372"/>
+        <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="347"/>
+        <location filename="../qml/pages/Options.qml" line="388"/>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Options.qml" line="394"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
@@ -207,58 +244,63 @@
 <context>
     <name>Paid</name>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="240"/>
+        <location filename="../qml/pages/Paid.qml" line="248"/>
         <source>Paid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="254"/>
+        <location filename="../qml/pages/Paid.qml" line="262"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="258"/>
+        <location filename="../qml/pages/Paid.qml" line="266"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="262"/>
+        <location filename="../qml/pages/Paid.qml" line="270"/>
         <source>Stats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="266"/>
+        <location filename="../qml/pages/Paid.qml" line="274"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="346"/>
+        <location filename="../qml/pages/Paid.qml" line="354"/>
         <source>Act. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="356"/>
+        <location filename="../qml/pages/Paid.qml" line="364"/>
         <source>Paym. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="388"/>
+        <location filename="../qml/pages/Paid.qml" line="396"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="410"/>
+        <location filename="../qml/pages/Paid.qml" line="419"/>
         <source>Set To Pay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="416"/>
+        <location filename="../qml/pages/Paid.qml" line="425"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="430"/>
+        <location filename="../qml/pages/Paid.qml" line="438"/>
         <source>Delete</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Paid.qml" line="467"/>
+        <source>Total: </source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -404,62 +446,62 @@
 <context>
     <name>ToPay</name>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="229"/>
+        <location filename="../qml/pages/ToPay.qml" line="237"/>
         <source>To Pay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="234"/>
+        <location filename="../qml/pages/ToPay.qml" line="242"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="238"/>
+        <location filename="../qml/pages/ToPay.qml" line="246"/>
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="242"/>
+        <location filename="../qml/pages/ToPay.qml" line="250"/>
         <source>Stats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="246"/>
+        <location filename="../qml/pages/ToPay.qml" line="254"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="325"/>
+        <location filename="../qml/pages/ToPay.qml" line="333"/>
         <source>Act. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="335"/>
+        <location filename="../qml/pages/ToPay.qml" line="343"/>
         <source>Paym. Date: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="367"/>
+        <location filename="../qml/pages/ToPay.qml" line="375"/>
         <source>Deleting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="389"/>
+        <location filename="../qml/pages/ToPay.qml" line="398"/>
         <source>Set Paid</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="395"/>
+        <location filename="../qml/pages/ToPay.qml" line="404"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="409"/>
+        <location filename="../qml/pages/ToPay.qml" line="417"/>
         <source>Delete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="438"/>
+        <location filename="../qml/pages/ToPay.qml" line="446"/>
         <source>Total: </source>
         <translation type="unfinished"></translation>
     </message>

@@ -96,6 +96,16 @@
         <translation>Имя:</translation>
     </message>
     <message>
+        <location filename="../qml/pages/EditDialog.qml" line="203"/>
+        <source>Category</source>
+        <translation type="unfinished">Категория</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="219"/>
+        <source>Type</source>
+        <translation type="unfinished">Тип</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
         <source>Date of Activity:</source>
         <translation type="unfinished"></translation>
