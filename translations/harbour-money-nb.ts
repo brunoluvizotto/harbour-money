@@ -34,7 +34,7 @@
     <message>
         <location filename="../qml/pages/Add.qml" line="194"/>
         <source>Category</source>
-        <translation type="unfinished">Kategori</translation>
+        <translation>Kategori</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="208"/>

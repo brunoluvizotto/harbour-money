@@ -56,7 +56,7 @@
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished">Category</translation>
+        <translation>Category</translation>
     </message>
 </context>
 <context>
