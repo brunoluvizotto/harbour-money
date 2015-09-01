@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="nb">
 <context>
@@ -30,6 +30,11 @@
         <location filename="../qml/pages/Add.qml" line="143"/>
         <source>Name:</source>
         <translation>Navn:</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Add.qml" line="208"/>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="../qml/pages/Add.qml" line="228"/>
@@ -89,6 +94,16 @@
         <location filename="../qml/pages/EditDialog.qml" line="152"/>
         <source>Name:</source>
         <translation>Navn:</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="203"/>
+        <source>Category</source>
+        <translation type="unfinished">Kategori</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/EditDialog.qml" line="219"/>
+        <source>Type</source>
+        <translation type="unfinished">Type</translation>
     </message>
     <message>
         <location filename="../qml/pages/EditDialog.qml" line="249"/>
@@ -196,32 +211,32 @@
         <translation>Systemspråk</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="299"/>
+        <location filename="../qml/pages/Options.qml" line="300"/>
         <source>Categories</source>
         <translation>Kategorier</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="304"/>
+        <location filename="../qml/pages/Options.qml" line="305"/>
         <source>Category Name</source>
         <translation>Kategorinavn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="312"/>
+        <location filename="../qml/pages/Options.qml" line="313"/>
         <source>Add New Category</source>
         <translation>Legg til ny kategori</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="371"/>
+        <location filename="../qml/pages/Options.qml" line="372"/>
         <source>Deleting</source>
         <translation>Sletter</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="387"/>
+        <location filename="../qml/pages/Options.qml" line="388"/>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Options.qml" line="393"/>
+        <location filename="../qml/pages/Options.qml" line="394"/>
         <source>Delete</source>
         <translation>Slett</translation>
     </message>
@@ -282,6 +297,11 @@
         <location filename="../qml/pages/Paid.qml" line="438"/>
         <source>Delete</source>
         <translation>Slett</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Paid.qml" line="467"/>
+        <source>Total: </source>
+        <translation type="unfinished">Total: </translation>
     </message>
 </context>
 <context>
