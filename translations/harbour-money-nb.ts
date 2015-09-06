@@ -333,117 +333,117 @@
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="121"/>
-        <location filename="../qml/pages/Stats.qml" line="294"/>
-        <location filename="../qml/pages/Stats.qml" line="505"/>
-        <location filename="../qml/pages/Stats.qml" line="976"/>
-        <location filename="../qml/pages/Stats.qml" line="1104"/>
-        <location filename="../qml/pages/Stats.qml" line="1165"/>
+        <location filename="../qml/pages/Stats.qml" line="301"/>
+        <location filename="../qml/pages/Stats.qml" line="519"/>
+        <location filename="../qml/pages/Stats.qml" line="1004"/>
+        <location filename="../qml/pages/Stats.qml" line="1132"/>
+        <location filename="../qml/pages/Stats.qml" line="1193"/>
         <source>Last </source>
         <translation>Siste </translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="121"/>
-        <location filename="../qml/pages/Stats.qml" line="976"/>
+        <location filename="../qml/pages/Stats.qml" line="1004"/>
         <source> days</source>
         <translation> dager</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="132"/>
-        <location filename="../qml/pages/Stats.qml" line="305"/>
+        <location filename="../qml/pages/Stats.qml" line="312"/>
         <source>Variable</source>
         <translation>Variabel</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="140"/>
-        <location filename="../qml/pages/Stats.qml" line="312"/>
-        <location filename="../qml/pages/Stats.qml" line="523"/>
+        <location filename="../qml/pages/Stats.qml" line="319"/>
+        <location filename="../qml/pages/Stats.qml" line="537"/>
         <source>Show Activities</source>
         <translation>Vis aktiviteter</translation>
     </message>
     <message>
         <location filename="../qml/pages/Stats.qml" line="155"/>
-        <location filename="../qml/pages/Stats.qml" line="327"/>
-        <location filename="../qml/pages/Stats.qml" line="538"/>
-        <location filename="../qml/pages/Stats.qml" line="759"/>
+        <location filename="../qml/pages/Stats.qml" line="334"/>
+        <location filename="../qml/pages/Stats.qml" line="552"/>
+        <location filename="../qml/pages/Stats.qml" line="780"/>
         <source>Delete</source>
         <comment>Delete item</comment>
         <translation>Slett</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="209"/>
-        <location filename="../qml/pages/Stats.qml" line="381"/>
-        <location filename="../qml/pages/Stats.qml" line="592"/>
-        <location filename="../qml/pages/Stats.qml" line="813"/>
+        <location filename="../qml/pages/Stats.qml" line="216"/>
+        <location filename="../qml/pages/Stats.qml" line="395"/>
+        <location filename="../qml/pages/Stats.qml" line="613"/>
+        <location filename="../qml/pages/Stats.qml" line="841"/>
         <source>Act. Date: </source>
         <translation>Akt. dato: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="219"/>
-        <location filename="../qml/pages/Stats.qml" line="391"/>
-        <location filename="../qml/pages/Stats.qml" line="602"/>
-        <location filename="../qml/pages/Stats.qml" line="823"/>
+        <location filename="../qml/pages/Stats.qml" line="226"/>
+        <location filename="../qml/pages/Stats.qml" line="405"/>
+        <location filename="../qml/pages/Stats.qml" line="623"/>
+        <location filename="../qml/pages/Stats.qml" line="851"/>
         <source>Paym. Date: </source>
         <translation>Bet. dato: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="254"/>
-        <location filename="../qml/pages/Stats.qml" line="426"/>
-        <location filename="../qml/pages/Stats.qml" line="637"/>
-        <location filename="../qml/pages/Stats.qml" line="858"/>
+        <location filename="../qml/pages/Stats.qml" line="261"/>
+        <location filename="../qml/pages/Stats.qml" line="440"/>
+        <location filename="../qml/pages/Stats.qml" line="658"/>
+        <location filename="../qml/pages/Stats.qml" line="886"/>
         <source>Edit</source>
         <translation>Rediger</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="268"/>
-        <location filename="../qml/pages/Stats.qml" line="440"/>
-        <location filename="../qml/pages/Stats.qml" line="652"/>
-        <location filename="../qml/pages/Stats.qml" line="873"/>
+        <location filename="../qml/pages/Stats.qml" line="275"/>
+        <location filename="../qml/pages/Stats.qml" line="454"/>
+        <location filename="../qml/pages/Stats.qml" line="673"/>
+        <location filename="../qml/pages/Stats.qml" line="901"/>
         <source>Delete</source>
         <translation>Slett</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="294"/>
-        <location filename="../qml/pages/Stats.qml" line="1165"/>
+        <location filename="../qml/pages/Stats.qml" line="301"/>
+        <location filename="../qml/pages/Stats.qml" line="1193"/>
         <source> months</source>
         <translation> måneder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="473"/>
+        <location filename="../qml/pages/Stats.qml" line="487"/>
         <source>Category</source>
         <translation>Kategori</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="683"/>
+        <location filename="../qml/pages/Stats.qml" line="704"/>
         <source>Fetch Database</source>
         <translation>Hent databank</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="689"/>
+        <location filename="../qml/pages/Stats.qml" line="710"/>
         <source>Activity Name</source>
         <translation>Aktivitetsnavn</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="706"/>
+        <location filename="../qml/pages/Stats.qml" line="727"/>
         <source>From</source>
         <translation>Fra</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="728"/>
+        <location filename="../qml/pages/Stats.qml" line="749"/>
         <source>To</source>
         <translation>Til</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="884"/>
+        <location filename="../qml/pages/Stats.qml" line="912"/>
         <source>Fetch</source>
         <translation>Hent</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="978"/>
+        <location filename="../qml/pages/Stats.qml" line="1006"/>
         <source>Today</source>
         <translation>I dag</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Stats.qml" line="1167"/>
+        <location filename="../qml/pages/Stats.qml" line="1195"/>
         <source>This month</source>
         <translation>Denne måneden</translation>
     </message>

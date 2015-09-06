@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     app->installTranslator(&translator);
 
     QCoreApplication::setApplicationName("Money");
-    QCoreApplication::setApplicationVersion("0.4.1");
+    QCoreApplication::setApplicationVersion("0.5.1");
 
     view->setSource(QUrl("qrc:/harbour-money.qml"));
     view->showFullScreen();

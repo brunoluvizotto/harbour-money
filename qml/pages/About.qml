@@ -28,7 +28,7 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
             }
             Label {
-                text: "0.4.1"
+                text: "0.5.1"
                 color: Theme.primaryColor
                 font.pixelSize: Theme.fontSizeMedium
                 anchors.horizontalCenter: parent.horizontalCenter

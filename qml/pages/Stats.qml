@@ -154,7 +154,14 @@ Page {
                     function deleteRemorseDays() {
                         remorseAction(qsTr("Delete", "Delete item"),
                         function() {
-                            delItem(activitiesDaysModel.get(index).name, activitiesDaysModel.get(index).category, activitiesDaysModel.get(index).datePaid, activitiesDaysModel.get(index).todayDate, activitiesDaysModel.get(index).value, activitiesDaysModel.get(index).kind)
+                            var kindLanguage;
+                            if(activitiesDaysModel.get(index).kind === appWindow.variable)
+                                kindLanguage = "Variable"
+                            if(activitiesDaysModel.get(index).kind === appWindow.fixed)
+                                kindLanguage = "Fixed"
+                            if(activitiesDaysModel.get(index).kind === appWindow.oneTime)
+                                kindLanguage = "One Time"
+                            delItem(activitiesDaysModel.get(index).name, activitiesDaysModel.get(index).category, activitiesDaysModel.get(index).datePaid, activitiesDaysModel.get(index).todayDate, activitiesDaysModel.get(index).value, kindLanguage)
                             getPaid(options.daysStat);
                         })
                     }
@@ -326,7 +333,14 @@ Page {
                     function deleteRemorseMonths() {
                         remorseAction(qsTr("Delete", "Delete item"),
                         function() {
-                            delItem(activitiesMonthsModel.get(index).name, activitiesMonthsModel.get(index).category, activitiesMonthsModel.get(index).datePaid, activitiesMonthsModel.get(index).todayDate, activitiesMonthsModel.get(index).value, activitiesMonthsModel.get(index).kind)
+                            var kindLanguage;
+                            if(activitiesMonthsModel.get(index).kind === appWindow.variable)
+                                kindLanguage = "Variable"
+                            if(activitiesMonthsModel.get(index).kind === appWindow.fixed)
+                                kindLanguage = "Fixed"
+                            if(activitiesMonthsModel.get(index).kind === appWindow.oneTime)
+                                kindLanguage = "One Time"
+                            delItem(activitiesMonthsModel.get(index).name, activitiesMonthsModel.get(index).category, activitiesMonthsModel.get(index).datePaid, activitiesMonthsModel.get(index).todayDate, activitiesMonthsModel.get(index).value, kindLanguage)
                             getPaidMonths(options.monthsStat);
                         })
                     }
@@ -537,7 +551,14 @@ Page {
                     function deleteRemorseCategories() {
                         remorseAction(qsTr("Delete", "Delete item"),
                         function() {
-                            delItem(activitiesCategoriesModel.get(index).name, activitiesCategoriesModel.get(index).category, activitiesDaysModel.get(index).datePaid, activitiesCategoriesModel.get(index).todayDate, activitiesCategoriesModel.get(index).value, activitiesCategoriesModel.get(index).kind)
+                            var kindLanguage;
+                            if(activitiesCategoriesModel.get(index).kind === appWindow.variable)
+                                kindLanguage = "Variable"
+                            if(activitiesCategoriesModel.get(index).kind === appWindow.fixed)
+                                kindLanguage = "Fixed"
+                            if(activitiesCategoriesModel.get(index).kind === appWindow.oneTime)
+                                kindLanguage = "One Time"
+                            delItem(activitiesCategoriesModel.get(index).name, activitiesCategoriesModel.get(index).category, activitiesCategoriesModel.get(index).datePaid, activitiesCategoriesModel.get(index).todayDate, activitiesCategoriesModel.get(index).value, kindLanguage)
                             getPaidCategory(options.categoryPeriod, options.categoriesStat, comboBoxCategory.value)
                         })
                     }
@@ -758,7 +779,14 @@ Page {
                     function deleteRemorseFetch() {
                         remorseAction(qsTr("Delete", "Delete item"),
                         function() {
-                            delItem(activitiesFetchModel.get(index).name, activitiesFetchModel.get(index).category, activitiesFetchModel.get(index).datePaid, activitiesFetchModel.get(index).todayDate, activitiesFetchModel.get(index).value, activitiesFetchModel.get(index).kind)
+                            var kindLanguage;
+                            if(activitiesFetchModel.get(index).kind === appWindow.variable)
+                                kindLanguage = "Variable"
+                            if(activitiesFetchModel.get(index).kind === appWindow.fixed)
+                                kindLanguage = "Fixed"
+                            if(activitiesFetchModel.get(index).kind === appWindow.oneTime)
+                                kindLanguage = "One Time"
+                            delItem(activitiesFetchModel.get(index).name, activitiesFetchModel.get(index).category, activitiesFetchModel.get(index).datePaid, activitiesFetchModel.get(index).todayDate, activitiesFetchModel.get(index).value, kindLanguage)
                             fetchDB()
                         })
                     }
