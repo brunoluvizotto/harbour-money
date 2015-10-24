@@ -23,18 +23,6 @@
         <translation>Add</translation>
     </message>
     <message>
-        <source>Variable</source>
-        <translation type="vanished">Variable</translation>
-    </message>
-    <message>
-        <source>Fixed</source>
-        <translation type="vanished">Fixed</translation>
-    </message>
-    <message>
-        <source>One Time</source>
-        <translation type="vanished">One Time</translation>
-    </message>
-    <message>
         <source>Name:</source>
         <translation>Name:</translation>
     </message>
@@ -70,10 +58,6 @@
         <translation>Paid:</translation>
     </message>
     <message>
-        <source>R$ </source>
-        <translation type="vanished">R$ </translation>
-    </message>
-    <message>
         <source>To Pay:</source>
         <translation>To Pay:</translation>
     </message>
@@ -98,18 +82,6 @@
     <message>
         <source>Name:</source>
         <translation>Name:</translation>
-    </message>
-    <message>
-        <source>Variable</source>
-        <translation type="vanished">Variable</translation>
-    </message>
-    <message>
-        <source>Fixed</source>
-        <translation type="vanished">Fixed</translation>
-    </message>
-    <message>
-        <source>One Time</source>
-        <translation type="vanished">One Time</translation>
     </message>
     <message>
         <source>Date of Activity:</source>
@@ -159,38 +131,6 @@
         <translation>Paid</translation>
     </message>
     <message>
-        <source>Today</source>
-        <translation type="vanished">Today</translation>
-    </message>
-    <message>
-        <source>Last 3 Days</source>
-        <translation type="vanished">Last 3 Days</translation>
-    </message>
-    <message>
-        <source>Last 7 Days</source>
-        <translation type="vanished">Last 7 Days</translation>
-    </message>
-    <message>
-        <source>Last 15 Days</source>
-        <translation type="vanished">Last 15 Days</translation>
-    </message>
-    <message>
-        <source>Last 30 Days</source>
-        <translation type="vanished">Last 30 Days</translation>
-    </message>
-    <message>
-        <source>This Month</source>
-        <translation type="vanished">This Month</translation>
-    </message>
-    <message>
-        <source>This Year</source>
-        <translation type="vanished">This Year</translation>
-    </message>
-    <message>
-        <source>Eternity</source>
-        <translation type="vanished">Eternity</translation>
-    </message>
-    <message>
         <source>Stats - All Categories</source>
         <translation>Stats - All Categories</translation>
     </message>
@@ -213,11 +153,6 @@
     <message>
         <source>Add New Category</source>
         <translation>Add New Category</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Delete</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -244,24 +179,8 @@
         <translation>Language</translation>
     </message>
     <message>
-        <source>English</source>
-        <translation type="vanished">English</translation>
-    </message>
-    <message>
-        <source>Portugues</source>
-        <translation type="vanished">Portugues</translation>
-    </message>
-    <message>
-        <source>Deutsch</source>
-        <translation type="vanished">Deutsch</translation>
-    </message>
-    <message>
         <source>Interval Shown</source>
         <translation>Interval Shown</translation>
-    </message>
-    <message>
-        <source>Português</source>
-        <translation type="vanished">Português</translation>
     </message>
     <message>
         <source>System Locale</source>
@@ -301,11 +220,6 @@
     <message>
         <source>Set To Pay</source>
         <translation>Set To Pay</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Delete</translation>
     </message>
     <message>
         <source>Stats</source>
@@ -349,18 +263,6 @@
     <message>
         <source>Variable</source>
         <translation>Variable</translation>
-    </message>
-    <message>
-        <source>Fixed</source>
-        <translation type="vanished">Fixed</translation>
-    </message>
-    <message>
-        <source>One Time</source>
-        <translation type="vanished">One Time</translation>
-    </message>
-    <message>
-        <source>All Kinds</source>
-        <translation type="vanished">All Kinds</translation>
     </message>
     <message>
         <source>Last </source>
@@ -439,14 +341,6 @@
         <source>Paym. Date: </source>
         <translation>Paym. Date: </translation>
     </message>
-    <message>
-        <source>Months</source>
-        <translation type="vanished">Months</translation>
-    </message>
-    <message>
-        <source>Days</source>
-        <translation type="vanished">Days</translation>
-    </message>
 </context>
 <context>
     <name>ToPay</name>
@@ -469,11 +363,6 @@
     <message>
         <source>Set Paid</source>
         <translation>Set Paid</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Delete</translation>
     </message>
     <message>
         <source>Stats</source>

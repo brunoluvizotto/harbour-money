@@ -226,14 +226,6 @@
         <translation>Bewerken</translation>
     </message>
     <message>
-        <source>English</source>
-        <translation type="vanished">English</translation>
-    </message>
-    <message>
-        <source>Português</source>
-        <translation type="vanished">Português</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Options.qml" line="300"/>
         <source>Categories</source>
         <translation>Categorieën</translation>
@@ -247,11 +239,6 @@
         <location filename="../qml/pages/Options.qml" line="313"/>
         <source>Add New Category</source>
         <translation>Nieuwe categorie toevoegen</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Verwijderen</translation>
     </message>
     <message>
         <location filename="../qml/pages/Options.qml" line="394"/>
@@ -287,42 +274,37 @@
         <translation>Toevoegen</translation>
     </message>
     <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Verwijderen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Paid.qml" line="354"/>
+        <location filename="../qml/pages/Paid.qml" line="365"/>
         <source>Act. Date: </source>
         <translation>Datum van act.: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="364"/>
+        <location filename="../qml/pages/Paid.qml" line="375"/>
         <source>Paym. Date: </source>
         <translation>Datum van bet.: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="396"/>
+        <location filename="../qml/pages/Paid.qml" line="407"/>
         <source>Deleting</source>
         <translation>Bezig met verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="419"/>
+        <location filename="../qml/pages/Paid.qml" line="430"/>
         <source>Set To Pay</source>
         <translation>Instellen als Te betalen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="425"/>
+        <location filename="../qml/pages/Paid.qml" line="436"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="438"/>
+        <location filename="../qml/pages/Paid.qml" line="449"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Paid.qml" line="467"/>
+        <location filename="../qml/pages/Paid.qml" line="478"/>
         <source>Total: </source>
         <translation>Totaal: </translation>
     </message>
@@ -494,42 +476,37 @@
         <translation>Toevoegen</translation>
     </message>
     <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Verwijderen</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/ToPay.qml" line="333"/>
+        <location filename="../qml/pages/ToPay.qml" line="344"/>
         <source>Act. Date: </source>
         <translation>Datum van act.: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="343"/>
+        <location filename="../qml/pages/ToPay.qml" line="354"/>
         <source>Paym. Date: </source>
         <translation>Datum van bet.: </translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="375"/>
+        <location filename="../qml/pages/ToPay.qml" line="386"/>
         <source>Deleting</source>
         <translation>Bezig met verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="398"/>
+        <location filename="../qml/pages/ToPay.qml" line="409"/>
         <source>Set Paid</source>
         <translation>Instellen als Betaald</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="404"/>
+        <location filename="../qml/pages/ToPay.qml" line="415"/>
         <source>Edit</source>
         <translation>Bewerken</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="417"/>
+        <location filename="../qml/pages/ToPay.qml" line="428"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/ToPay.qml" line="446"/>
+        <location filename="../qml/pages/ToPay.qml" line="457"/>
         <source>Total: </source>
         <translation>Totaal: </translation>
     </message>

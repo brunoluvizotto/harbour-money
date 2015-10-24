@@ -131,38 +131,6 @@
         <translation>Pagos</translation>
     </message>
     <message>
-        <source>Today</source>
-        <translation type="vanished">Hoje</translation>
-    </message>
-    <message>
-        <source>Last 3 Days</source>
-        <translation type="vanished">Últimos 3 Dias</translation>
-    </message>
-    <message>
-        <source>Last 7 Days</source>
-        <translation type="vanished">Últimos 7 Dias</translation>
-    </message>
-    <message>
-        <source>Last 15 Days</source>
-        <translation type="vanished">Últimos 15 Dias</translation>
-    </message>
-    <message>
-        <source>Last 30 Days</source>
-        <translation type="vanished">Últimos 30 Dias</translation>
-    </message>
-    <message>
-        <source>This Month</source>
-        <translation type="vanished">Esse Mês</translation>
-    </message>
-    <message>
-        <source>This Year</source>
-        <translation type="vanished">Esse Ano</translation>
-    </message>
-    <message>
-        <source>Eternity</source>
-        <translation type="vanished">Eternidade</translation>
-    </message>
-    <message>
         <source>Stats - All Categories</source>
         <translation>Estatísticas - Todas as Categorias</translation>
     </message>
@@ -185,11 +153,6 @@
     <message>
         <source>Add New Category</source>
         <translation>Adicionar Nova Categoria</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Deletar</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -216,24 +179,8 @@
         <translation>Língua</translation>
     </message>
     <message>
-        <source>English</source>
-        <translation type="vanished">English</translation>
-    </message>
-    <message>
-        <source>Portugues</source>
-        <translation type="vanished">Portugues</translation>
-    </message>
-    <message>
-        <source>Deutsch</source>
-        <translation type="vanished">Deutsch</translation>
-    </message>
-    <message>
         <source>Interval Shown</source>
         <translation>Intervalo Mostrado</translation>
-    </message>
-    <message>
-        <source>Português</source>
-        <translation type="vanished">Português</translation>
     </message>
     <message>
         <source>System Locale</source>
@@ -273,11 +220,6 @@
     <message>
         <source>Set To Pay</source>
         <translation>Enviar para &quot;A Pagar&quot;</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Deletar</translation>
     </message>
     <message>
         <source>Stats</source>
@@ -399,14 +341,6 @@
         <source>Paym. Date: </source>
         <translation>Data Pag.: </translation>
     </message>
-    <message>
-        <source>Months</source>
-        <translation type="vanished">meses</translation>
-    </message>
-    <message>
-        <source>Days</source>
-        <translation type="vanished">dias</translation>
-    </message>
 </context>
 <context>
     <name>ToPay</name>
@@ -429,11 +363,6 @@
     <message>
         <source>Set Paid</source>
         <translation>Enviar para &quot;Pago&quot;</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <comment>Delete item</comment>
-        <translation type="vanished">Deletar</translation>
     </message>
     <message>
         <source>Stats</source>
