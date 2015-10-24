@@ -279,7 +279,7 @@ Page {
                 id: toPayDelegate
                 ListItem {
                     id: container
-                    contentHeight: textAltura.height + dateTodayText.height + dateToPayText.height + valueText.height //1.7 * iconImage.height // 2.5 * textAltura.height
+                    contentHeight: textAltura.height + dateTodayText.height + dateToPayText.height + valueText.height + 6 //1.7 * iconImage.height // 2.5 * textAltura.height
                     width: ListView.view.width;
                     menu: contextMenu
 
@@ -291,8 +291,19 @@ Page {
                             bottom: parent.bottom
                             left: parent.left
                             right: parent.right
-                            leftMargin: Theme.paddingSmall
-                            rightMargin: Theme.paddingSmall
+                        }
+                        clip: true
+
+                        Rectangle {
+                            width: 2 * parent.width
+                            height: parent.height
+                            x: -width / 2
+                            rotation: 12
+
+                            gradient: Gradient {
+                                GradientStop { position: 0.0; color: Theme.rgba(Theme.primaryColor, 0) }
+                                GradientStop { position: 1.0; color: Theme.rgba(Theme.primaryColor, .1) }
+                            }
                         }
 
                         Text {
@@ -427,7 +438,7 @@ Page {
 
             SilicaListView {
                 id: toPayListView
-                spacing: 8
+                //spacing: 8
                 anchors {
                     top: parent.top
                     bottom: textTotal.top
