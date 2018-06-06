@@ -18,6 +18,8 @@ SOURCES += src/harbour-money.cpp \
     src/options.cpp
 
 OTHER_FILES += \
+    qml/* \
+    qml/pages/* \
     rpm/harbour-money.changes.in \
     rpm/harbour-money.spec \
     rpm/harbour-money.yaml \
